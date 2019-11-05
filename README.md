@@ -5,4 +5,6 @@ A common collection of tools for developer daily work
 
 - https://www.vagrantup.com/downloads.html
 - https://www.virtualbox.org 
-- https://www.osboxes.org/centos/ centos image for virtualbox 
+- http://www.vagrantbox.es/ 
+
+
