@@ -1,5 +1,6 @@
-# developer-tools
-A common collection of tools for developer daily work 
+# 开发工具链
+
+收集软件工程师日常用到的工具、框架、库，静态站点通过 yaml 文件配置生成。
 
 ## java developer on mac
 

@@ -1,0 +1,12 @@
+---
+
+- domain:
+  name: 项目管理
+  topics:
+    - name: 管理看板
+      candidates:
+        - name: JIRA
+          url: https://www.atlassian.com/software/jira
+          intro: Atlassian出品，需要购买。
+
+
