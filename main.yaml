@@ -7,6 +7,8 @@
       candidates:
         - name: JIRA
           url: https://www.atlassian.com/software/jira
-          intro: Atlassian出品，需要购买。
-
+          intro: 适合中、大团队
+        - name: trello
+          url: https://trello.com/
+          intro: 功能简单，适合小团队
 
