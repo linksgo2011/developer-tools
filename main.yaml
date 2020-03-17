@@ -179,6 +179,15 @@
   topics:
   - name: 协议
     candidates:
+    - name: HTTP
+      url: https://tools.ietf.org/html/rfc2616
+      intro: web 基本协议
+    - name: HTTPS
+      url: https://tools.ietf.org/html/rfc2818
+      intro: 安全 HTTP
+    - name: oauth2
+      url: https://oauth.net/2/
+      intro: 分布式授权协议
     - name: LDAP
       url: https://www.openldap.org/
       intro: 目录访问，用户信息存储
