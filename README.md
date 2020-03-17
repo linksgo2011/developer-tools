@@ -7,8 +7,8 @@
 VirtuaMachine
 
 - https://www.vagrantup.com/downloads.html
-- https://www.virtualbox.org 
-- http://www.vagrantbox.es/ 
+- 
+-  
 
 Development daily
 

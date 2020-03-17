@@ -23,3 +23,21 @@
     - name: FindBugs
       url: https://trello.com/
       intro: 代码质量
+
+- domain:
+  name: 开发运维
+  topics:
+  - name: 虚拟机环境
+    candidates:
+    - name: virtualbox
+      url: https://www.virtualbox.org
+      intro: 虚拟机工具
+    - name: Vgrant
+      url: https://www.vagrantup.com/
+      intro: 虚拟机管理工具
+    - name: vagrantbox
+      url: http://www.vagrantbox.es/
+      intro: vagrant 镜像下载
+    - name: Parallel
+      url: https://www.parallels.com/
+      intro: Mac上最好的虚拟机
