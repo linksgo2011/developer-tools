@@ -33,7 +33,7 @@
       intro: 代码质量扫描
     - name: Spring boot
       url: https://spring.io/projects/spring-boot
-      intro: 代码质量扫描
+      intro: 主流框架
     - name: lombok
       url: https://projectlombok.org/
       intro: 减少 getter、setter
