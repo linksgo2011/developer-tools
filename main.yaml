@@ -37,6 +37,53 @@
       intro: 代码质量
 
 - domain:
+  name: Web前端开发
+  topics:
+  - name: 构建工具
+    candidates:
+    - name: Webpack
+      url: https://webpack.github.io/
+      intro: 必备打包工具
+    - name: ESLint
+      url: https://eslint.org/
+      intro: JS质量扫描
+  - name: 图标库
+    candidates:
+    - name: iconfont
+      url: http://www.iconfont.cn/
+      intro: 阿里巴巴图标库
+    - name: flaticon
+      url: https://www.flaticon.com/
+      intro: 免费、扁平的图标库
+
+- domain:
+  name: 文档编写
+  topics:
+  - name: markdown工具
+    candidates:
+    - name: markdownguide
+      url: https://www.markdownguide.org/
+      intro: markdown语法
+    - name: Typora
+      url: https://typora.io/
+      intro: 非常好用的 Markdown 编辑器
+    - name: hexo
+      url: https://hexo.io/
+      intro: markdown静态站点
+    - name: pandoc
+      url: https://pandoc.org/
+      intro: 编译 markdown 为html、pdf
+
+  - name: 画图
+    candidates:
+    - name: draw.io
+      url:  https://www.draw.io/
+      intro: 免费、在线绘图
+    - name: processon
+      url:  https://www.processon.cn
+      intro: 收费、在线绘图、托管
+
+- domain:
   name: 开发运维
   topics:
   - name: ssh工具
@@ -50,7 +97,6 @@
     - name: PuTTY
       url: https://www.chiark.greenend.org.uk/~sgtatham/putty/
       intro: 免费、体验一般、界面丑
-
   - name: 虚拟机环境
     candidates:
     - name: virtualbox

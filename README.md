@@ -10,10 +10,10 @@
 ## Draw diagram and writing
 
 - Apache OpenOffice Draw  https://www.openoffice.org/download/index.html
-- Draw digram online https://www.draw.io/
+- Draw digram online
 - Flat style free icons https://flaticon.com/
 - Gernate doc site tool with markdown https://docsify.js.org/#/
 - Static site generator with markdown https://hexo.io/
-- Pandoc compiler for markdown https://pandoc.org/
+- Pandoc compiler for markdown 
 - Sphinx http://www.sphinx-doc.org/en/master/
 

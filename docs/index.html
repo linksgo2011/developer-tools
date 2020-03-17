@@ -2,78 +2,92 @@
 <head>
     <title>IT 工程师工具链</title>
     <style>
-        body{
+        body {
             font-family: 'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1 Bold', '\5FAE\8F6F\96C5\9ED1', sans-serif;
             font-size: 12px;
             color: #666666;
         }
+
         .container {
             margin-right: auto;
             margin-left: auto;
             padding-left: 11px;
             padding-right: 11px;
         }
+
         .container:before, .container:after {
             content: " ";
             display: table;
         }
+
         .container:after {
             clear: both;
         }
+
         @media (min-width: 768px) {
             .container {
                 width: 742px;
             }
         }
+
         @media (min-width: 992px) {
             .container {
                 width: 942px;
             }
         }
+
         @media (min-width: 1200px) {
             .container {
                 width: 1123px;
             }
         }
-        .domain{
+
+        .domain {
             background: #ffffff;
             border-radius: 4px;
             padding: 10px 18px 18px;
             margin-bottom: 18px;
             border: 1px solid #eeeeee;
         }
-        .domain h2{
+
+        .domain h2 {
             border-bottom: 1px solid #f5f6f7;
             font-weight: normal;
         }
-        .tab-header{
+
+        .tab-header {
             display: flex;
         }
-        .tab-header dd{
+
+        .tab-header dd {
             display: inline-block;
             padding: 0 20px;
-            margin:0;
+            margin: 0;
         }
-        .tab-header .title{
+
+        .tab-header .title {
             display: inline-block;
             position: relative;
             padding: 0 3px;
             cursor: pointer;
         }
-        .tab-header .title.active{
+
+        .tab-header .title.active {
             border-bottom: 2px solid #333333;
         }
-        .candidates{
+
+        .candidates {
             display: none;
             list-style: none;
-            margin:0;
-            padding:0;
+            margin: 0;
+            padding: 0;
         }
-        .candidates.active{
+
+        .candidates.active {
             display: flex;
         }
 
-        .candidates li{
+        .candidates li {
             display: inline-block;
             width: 19%;
             padding: 12px;
@@ -84,7 +98,8 @@
             background: #f7f7f7;
             margin-bottom: 6px;
         }
-        .candidates a{
+
+        .candidates a {
             display: flex;
             line-height: 0;
             vertical-align: top;
@@ -93,7 +108,8 @@
             position: relative;
             color: inherit;
         }
-        .candidates .intro{
+
+        .candidates .intro {
             color: #525558;
             font-size: 13px;
             line-height: 16px;
@@ -106,10 +122,12 @@
             padding-right: 8px;
             white-space: nowrap;
         }
+
         .clearfix:before, .clearfix:after {
             content: " ";
             display: table;
         }
+
         .clearfix:after {
             clear: both;
         }
@@ -134,7 +152,8 @@
                     
                     <li>
                         <a href="https://www.atlassian.com/software/jira" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>JIRA</span>
                                 <br>
@@ -145,7 +164,8 @@
                     
                     <li>
                         <a href="https://trello.com/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>trello</span>
                                 <br>
@@ -176,7 +196,8 @@
                     
                     <li>
                         <a href="https://www.atlassian.com/software/jira" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>IntelliJ</span>
                                 <br>
@@ -187,7 +208,8 @@
                     
                     <li>
                         <a href="https://trello.com/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>FindBugs</span>
                                 <br>
@@ -218,7 +240,8 @@
                     
                     <li>
                         <a href="https://www.atlassian.com/software/jira" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>IntelliJ</span>
                                 <br>
@@ -229,11 +252,188 @@
                     
                     <li>
                         <a href="https://trello.com/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>FindBugs</span>
                                 <br>
                                 <span>代码质量</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="section domain">
+        <h2>Web前端开发</h2>
+        <div class="tab">
+            <dl class="tab-header">
+                
+                <dd class="title active">
+                    构建工具
+                </dd>
+                
+                <dd class="title ">
+                    图标库
+                </dd>
+                
+            </dl>
+            <div class="tab-content">
+                
+                <ul class="candidates active">
+                    
+                    <li>
+                        <a href="https://webpack.github.io/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>Webpack</span>
+                                <br>
+                                <span>必备打包工具</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://eslint.org/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>ESLint</span>
+                                <br>
+                                <span>JS质量扫描</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+                <ul class="candidates ">
+                    
+                    <li>
+                        <a href="http://www.iconfont.cn/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>iconfont</span>
+                                <br>
+                                <span>阿里巴巴图标库</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.flaticon.com/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>flaticon</span>
+                                <br>
+                                <span>免费、扁平的图标库</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="section domain">
+        <h2>文档编写</h2>
+        <div class="tab">
+            <dl class="tab-header">
+                
+                <dd class="title active">
+                    markdown工具
+                </dd>
+                
+                <dd class="title ">
+                    画图
+                </dd>
+                
+            </dl>
+            <div class="tab-content">
+                
+                <ul class="candidates active">
+                    
+                    <li>
+                        <a href="https://www.markdownguide.org/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>markdownguide</span>
+                                <br>
+                                <span>markdown语法</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://typora.io/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>Typora</span>
+                                <br>
+                                <span>非常好用的 Markdown 编辑器</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://hexo.io/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>hexo</span>
+                                <br>
+                                <span>markdown静态站点</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://pandoc.org/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>pandoc</span>
+                                <br>
+                                <span>编译 markdown 为html、pdf</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                </ul>
+                
+                <ul class="candidates ">
+                    
+                    <li>
+                        <a href="https://www.draw.io/" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>draw.io</span>
+                                <br>
+                                <span>免费、在线绘图</span>
+                            </div>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://www.processon.cn" target="_blank">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
+                            <div class="intro">
+                                <span>processon</span>
+                                <br>
+                                <span>收费、在线绘图、托管</span>
                             </div>
                         </a>
                     </li>
@@ -264,7 +464,8 @@
                     
                     <li>
                         <a href="https://mobaxterm.mobatek.net/download-home-edition.html" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>mobaxterm</span>
                                 <br>
@@ -275,7 +476,8 @@
                     
                     <li>
                         <a href="https://www.netsarang.com/zh/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>xshell</span>
                                 <br>
@@ -286,7 +488,8 @@
                     
                     <li>
                         <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>PuTTY</span>
                                 <br>
@@ -301,7 +504,8 @@
                     
                     <li>
                         <a href="https://www.virtualbox.org" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>virtualbox</span>
                                 <br>
@@ -312,7 +516,8 @@
                     
                     <li>
                         <a href="https://www.vagrantup.com/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>Vgrant</span>
                                 <br>
@@ -323,7 +528,8 @@
                     
                     <li>
                         <a href="http://www.vagrantbox.es/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>vagrantbox</span>
                                 <br>
@@ -334,7 +540,8 @@
                     
                     <li>
                         <a href="https://www.parallels.com/" target="_blank">
-                            <img src="./icons/default.png" height="32" width="32" alt="">
+                            <img src="./icons/default.png" height="32" width="32"
+                                 alt="">
                             <div class="intro">
                                 <span>Parallel</span>
                                 <br>
@@ -362,23 +569,21 @@
                 // 处理 title
                 var currentIndex = 0;
                 var siblings = event.target.parentNode.children;
-                Array.from(siblings).forEach(function(node,index){
+                Array.from(siblings).forEach(function (node, index) {
                     node.className = 'title'
-                    console.log(node === currentNode,index)
-                    if(node === currentNode){
+                    if (node === currentNode) {
                         currentIndex = index;
-                    }
+                    }s
                 })
                 currentNode.className = 'title active';
 
                 // 处理 content
                 var tabWrapper = currentNode.parentNode.parentNode;
                 var candidatesNodes = tabWrapper.querySelectorAll(".candidates");
-                Array.from(candidatesNodes).forEach(function(node,index){
-                    console.log(node === currentNode,index)
-                    if(currentIndex === index){
+                Array.from(candidatesNodes).forEach(function (node, index) {
+                    if (currentIndex === index) {
                         node.className = 'candidates active';
-                    }else{
+                    } else {
                         node.className = 'candidates';
                     }
                 });
