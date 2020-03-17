@@ -123,6 +123,10 @@
             white-space: nowrap;
         }
 
+        .candidates .intro span{
+            color: #666;
+        }
+
         .clearfix:before, .clearfix:after {
             content: " ";
             display: table;
@@ -155,7 +159,7 @@
                             <img src="./icons/<%=candidate.icon?candidate.icon:'default'%>.png" height="32" width="32"
                                  alt="">
                             <div class="intro">
-                                <span><%=candidate.name%></span>
+                                <%=candidate.name%>
                                 <br>
                                 <span><%=candidate.intro%></span>
                             </div>
