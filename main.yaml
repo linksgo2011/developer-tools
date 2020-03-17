@@ -1,18 +1,6 @@
 ---
 
 - domain:
-  name: 项目管理
-  topics:
-    - name: 管理看板
-      candidates:
-        - name: JIRA
-          url: https://www.atlassian.com/software/jira
-          intro: 适合中、大团队
-        - name: trello
-          url: https://trello.com/
-          intro: 功能简单，适合小团队
-
-- domain:
   name: Java 开发
   topics:
   - name: 开发工具
@@ -59,7 +47,7 @@
 - domain:
   name: 文档编写
   topics:
-  - name: markdown工具
+  - name: markdown
     candidates:
     - name: markdownguide
       url: https://www.markdownguide.org/
@@ -111,3 +99,15 @@
     - name: Parallel
       url: https://www.parallels.com/
       intro: Mac上最好的虚拟机
+
+- domain:
+  name: 项目管理
+  topics:
+  - name: 管理看板
+    candidates:
+    - name: JIRA
+      url: https://www.atlassian.com/software/jira
+      intro: 适合中、大团队
+    - name: trello
+      url: https://trello.com/
+      intro: 功能简单，适合小团队
