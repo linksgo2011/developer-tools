@@ -25,8 +25,32 @@
       intro: 代码质量
 
 - domain:
+  name: Java 开发
+  topics:
+  - name: 开发工具
+    candidates:
+    - name: IntelliJ
+      url: https://www.atlassian.com/software/jira
+      intro: 必备 IDE
+    - name: FindBugs
+      url: https://trello.com/
+      intro: 代码质量
+
+- domain:
   name: 开发运维
   topics:
+  - name: SSH
+    candidates:
+    - name: mobaxterm
+      url: https://mobaxterm.mobatek.net/download-home-edition.html
+      intro: 免费、体验好、界面一般
+    - name: xshell
+      url: https://www.netsarang.com/zh/
+      intro: 收费、体验好、界面好看
+    - name: PuTTY
+      url: https://www.chiark.greenend.org.uk/~sgtatham/putty/
+      intro: 免费、体验一般、界面丑
+
   - name: 虚拟机环境
     candidates:
     - name: virtualbox

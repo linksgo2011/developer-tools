@@ -2,17 +2,7 @@
 
 收集软件工程师日常用到的工具、框架、库，静态站点通过 yaml 文件配置生成。
 
-## java developer on mac
-
-VirtuaMachine
-
-- https://www.vagrantup.com/downloads.html
-- 
--  
-
-Development daily
-
-- https://mobaxterm.mobatek.net/download-home-edition.html  SSH tool 
+-   SSH tool 
 - redis-desktop-management  https://pan.baidu.com/s/1n7gO7H-Pu7TiC4Rrt4BObg ts5j
 - https://dev.mysql.com/downloads/workbench/
 
