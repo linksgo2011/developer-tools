@@ -107,18 +107,90 @@
     - name: Parallel
       url: https://www.parallels.com/
       intro: Mac上最好的虚拟机
+  - name: docker
+    candidates:
+    - name: Docker
+      url: https://www.docker.com/
+      intro: docker 官网
+    - name: Docker Registry
+      url: https://docs.docker.com/registry/
+      intro: 官方仓库、简单
+    - name: Harbor
+      url: https://goharbor.io/
+      intro: 主流、功能完整的私仓
+    - name: Swarm
+      url: https://docs.docker.com/engine/swarm/
+      intro: Docker 官方集群
+  - name: kubernetes
+    candidates:
+    - name: kubernetes
+      url: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/
+      intro: 主流集群，官网
+  - name: CI/CD
+    candidates:
+    - name: Nexus
+      url: https://www.sonatype.com/product-nexus-repository
+      intro: 制品存储
+    - name: Jenkins
+      url: https://jenkins.io
+      intro: CI 平台，主流
+    - name: GitLab
+      url: https://about.gitlab.com/
+      intro: 代码托管平台
+  - name: 运维自动化
+    candidates:
+    - name: Ansible
+      url: https://docs.ansible.com/
+      intro: 机器批量运维
+    - name: devops-tools
+      url: https://github.com/linksgo2011/devops-tools
+      intro: 自动化运维脚本集
 
 - domain:
   name: 大数据
   topics:
-  - name: 开发工具
+  - name: 工具
     candidates:
-    - name: IntelliJ
-      url: https://www.atlassian.com/software/jira
-      intro: 必备 IDE
-    - name: FindBugs
-      url: https://trello.com/
-      intro: 代码质量
+    - name: Kafka
+      url: https://kafka.apache.org/
+      intro: 日志消息中间件
+    - name: Spark
+      url: http://spark.apache.org/
+      intro: 大数据计算引擎
+    - name: flink
+      url: https://flink.apache.org/
+      intro: 流计算引擎
+  - name: 数据爬取
+    candidates:
+    - name: Scrapy
+      url: https://scrapy.org/
+      intro: 爬虫框架
+  - name: 推荐系统
+    candidates:
+    - name: EasyRec
+      url: http://easyrec.org/
+      intro: 简单、完成度高
+    - name: Graphlab
+      url: http://graphlab.org/
+      intro: 高性能
+
+- domain:
+  name: 网络
+  topics:
+  - name: 协议
+    candidates:
+    - name: LDAP
+      url: https://www.openldap.org/
+      intro: 目录访问，用户信息存储
+    - name: WebSocket
+      url: https://tools.ietf.org/html/rfc6455
+      intro: 实时推送、全双工
+    - name: stomp
+      url: https://stomp.github.io/
+      intro: 基于 ws，消息通信
+    - name: graphql
+      url: https://graphql.org/
+      intro: API 查询协议
 
 - domain:
   name: 项目管理
