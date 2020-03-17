@@ -19,6 +19,7 @@
   "dependencies": {
     "ejs": "^3.0.1",
     "js-yaml": "^3.13.1",
-    "make-dir": "^3.0.2"
+    "make-dir": "^3.0.2",
+    "ncp": "^2.0.0"
   }
 }

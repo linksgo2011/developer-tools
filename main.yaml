@@ -12,3 +12,14 @@
           url: https://trello.com/
           intro: 功能简单，适合小团队
 
+- domain:
+  name: Java 开发
+  topics:
+  - name: 开发工具
+    candidates:
+    - name: IntelliJ
+      url: https://www.atlassian.com/software/jira
+      intro: 必备 IDE
+    - name: FindBugs
+      url: https://trello.com/
+      intro: 代码质量

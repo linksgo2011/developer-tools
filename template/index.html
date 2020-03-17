@@ -44,6 +44,7 @@
         }
         .domain h2{
             border-bottom: 1px solid #f5f6f7;
+            font-weight: normal;
         }
         .tab-header{
             display: flex;
@@ -133,7 +134,7 @@
                     <% topic.candidates.forEach(function(candidate,index){ %>
                     <li>
                         <a href="<%=candidate.url%>" target="_blank">
-                            <img src="#" height="32" width="32" alt="">
+                            <img src="./icons/<%=candidate.icon?candidate.icon:'default'%>.png" height="32" width="32" alt="">
                             <div class="intro">
                                 <span><%=candidate.name%></span>
                                 <br>
@@ -148,12 +149,14 @@
         </div>
     </section>
     <% }); %>
-
-
 </div>
 
 <div class="footer container">
     © 2020 少个分号. <a href="http://www.printf.cn/">http://www.printf.cn/</a>
 </div>
+
+<scrip>
+
+</scrip>
 </body>
 </html>
