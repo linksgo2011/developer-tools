@@ -13,18 +13,6 @@
       intro: 代码质量
 
 - domain:
-  name: Java 开发
-  topics:
-  - name: 开发工具
-    candidates:
-    - name: IntelliJ
-      url: https://www.atlassian.com/software/jira
-      intro: 必备 IDE
-    - name: FindBugs
-      url: https://trello.com/
-      intro: 代码质量
-
-- domain:
   name: Web前端开发
   topics:
   - name: 构建工具
