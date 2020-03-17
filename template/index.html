@@ -155,8 +155,36 @@
     © 2020 少个分号. <a href="http://www.printf.cn/">http://www.printf.cn/</a>
 </div>
 
-<scrip>
+<script type="application/javascript">
+    document.querySelectorAll(".tab-header .title").forEach(function (item) {
+            item.addEventListener("click", function (event) {
+                var currentNode = event.target;
+                // 处理 title
+                var currentIndex = 0;
+                var siblings = event.target.parentNode.children;
+                Array.from(siblings).forEach(function(node,index){
+                    node.className = 'title'
+                    console.log(node === currentNode,index)
+                    if(node === currentNode){
+                        currentIndex = index;
+                    }
+                })
+                currentNode.className = 'title active';
 
-</scrip>
+                // 处理 content
+                var tabWrapper = currentNode.parentNode.parentNode;
+                var candidatesNodes = tabWrapper.querySelectorAll(".candidates");
+                Array.from(candidatesNodes).forEach(function(node,index){
+                    console.log(node === currentNode,index)
+                    if(currentIndex === index){
+                        node.className = 'candidates active';
+                    }else{
+                        node.className = 'candidates';
+                    }
+                });
+            })
+        }
+    );
+</script>
 </body>
 </html>
