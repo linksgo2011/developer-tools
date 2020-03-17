@@ -39,7 +39,7 @@
 - domain:
   name: 开发运维
   topics:
-  - name: SSH
+  - name: ssh工具
     candidates:
     - name: mobaxterm
       url: https://mobaxterm.mobatek.net/download-home-edition.html
