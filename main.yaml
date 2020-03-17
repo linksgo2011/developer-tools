@@ -1,6 +1,26 @@
 ---
 
 - domain:
+  name: 效率提升
+  topics:
+  - name: 在线小工具
+    candidates:
+    - name: todolist
+      url: http://todo.printf.cn/
+      intro: 简单的代办事项
+    - name: bejson
+      url: http://www.bejson.com/
+      intro: 格式化、加解密、开放API查询
+    - name: fehelper
+      url: https://www.baidufe.com/fehelper/index/index.html
+      intro: 编码转换、图片取色插件
+  - name: 注意力
+    candidates:
+    - name: Strict Workflow
+      url: https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd
+      intro: 番茄工作插件
+
+- domain:
   name: Java 开发
   topics:
   - name: 开发工具
@@ -87,6 +107,18 @@
     - name: Parallel
       url: https://www.parallels.com/
       intro: Mac上最好的虚拟机
+
+- domain:
+  name: 大数据
+  topics:
+  - name: 开发工具
+    candidates:
+    - name: IntelliJ
+      url: https://www.atlassian.com/software/jira
+      intro: 必备 IDE
+    - name: FindBugs
+      url: https://trello.com/
+      intro: 代码质量
 
 - domain:
   name: 项目管理
