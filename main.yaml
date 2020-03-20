@@ -19,6 +19,11 @@
     - name: Strict Workflow
       url: https://chrome.google.com/webstore/detail/strict-workflow/cgmnfnmlficgeijcalkgnnkigkefkbhd
       intro: 番茄工作插件
+  - name: 编码效率
+    candidates:
+    - name:
+      url: https://tabnine.com/
+      intro: AI 代码补全插件
 
 - domain:
   name: 后端开发
