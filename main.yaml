@@ -21,9 +21,15 @@
       intro: 番茄工作插件
   - name: 编码效率
     candidates:
-    - name:
+    - name: tabnine
       url: https://tabnine.com/
       intro: AI 代码补全插件
+    - name: SwitchHosts
+      url: https://oldj.github.io/SwitchHosts/#cn
+      intro: 快速切换 Hosts
+    - name: postman
+      url: https://www.postman.com/
+      intro: API 调试工具
 
 - domain:
   name: 后端开发
