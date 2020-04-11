@@ -141,6 +141,9 @@
     - name: pandoc
       url: https://pandoc.org/
       intro: 编译 markdown 为html、pdf
+    - name: asciidoctor
+      url: https://asciidoctor.org/
+      intro: 类似 markdown，可以用于写书
 
   - name: 画图
     candidates:
