@@ -148,7 +148,6 @@
       url: https://asciidoctor.org/
       intro: 适用于写书的文档工具
 
-
   - name: 画图
     candidates:
     - name: draw.io
